@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simón Bustamante Alzate</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous">
+    </script>
+    <script src="librerias/sweetalert/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="librerias/sweetalert/sweetalert.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Oswald|Inconsolata|Playfair+Display">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/logica.js"></script>
+</head>
+
+<body>
+    <script>
+    if (isDebug()) console.log("$Simonba97 - index.html is up");
+    </script>
+    <div class="static"><a href="https://api.whatsapp.com/send?phone=573013918856" class="fa fa-whatsapp fa-2x" aria-hidden="true"></a></div>
+    <div id="menu" class="static">
+        <a title="HOME" href="#home" class="fa fa-home fa-2x" aria-hidden="true"></a>
+        <a title="¿QUIÉN SOY?" href="#quienSoy" class="fa fa-question fa-2x" aria-hidden="true"></a>
+        <a title="¿QUÉ SÉ?" href="#queSe" class="fa fa-check-circle fa-2x" aria-hidden="true"></a>
+        <a title="PORTAFOLIO" href="#portafolio" class="fa  fa-coffee fa-2x" aria-hidden="true"></a>
+        <!-- <a title="PRODUCTO ESTRELLA" href="#productoEstrella" class="fa fa-star fa-2x" aria-hidden="true"></a> -->
+    </div>
+    <section id="home" class="bgimg1 w3-display-container w3-animate-opacity w3-text-white">
+        <div class="w3-display-middle">
+            <h1 class="w3-jumbo w3-animate-top">TRIBU ORINGA [PL - 45]</h1>
+            <hr class="w3-border-grey" style="margin:auto;width:80%">
+            <p class="w3-large w3-center">Somos inspiradores, apasionados y poderosos.</p>
+        </div>
+        <div class="w3-display-bottomleft w3-padding-large" style="top: 90%; left: 48%;">
+            <a href="#quienSoy" class="fa fa-angle-down fa-3x iconDown" aria-hidden="true"></a>
+        </div>
+    </section>
+    <section id="quienSoy" class="bgimg2 w3-display-container w3-animate-opacity w3-text-white">
+        <div class="w3-display-middle">
+            <h1 class="w3-jumbo w3-animate-top" style=" text-align: center;">- ¿QUIENES SOMOS? -</h1>
+            <hr class="w3-border-grey" style="margin:auto;width:40%">
+            <div class="contentText">
+                <img src="images/logoOringa.jpg" id="imgMe" class="img-circle">
+                <p class="w3-large w3-center">Nosotros la tribu ORINGA somos líderes inspiradores apasionados y poderosos. Vamos a impactar nuestros niños huerfanos de Medellín enseñandoles que los sueños se pueden cumplir, que el arma es la sonrísa y que el límite es el cielo.
+                    <br>
+                    <br><span id="lema">TRIBU ORINGA</span></p>
+            </div>
+        </div>
+        <div class="w3-display-bottomleft w3-padding-large" style="top: 90%; left: 48%;">
+            <a href="#queSe" class="fa fa-angle-down fa-3x iconDown" aria-hidden="true"><a href="#home" class="fa fa-angle-up fa-3x iconUp" aria-hidden="true"></a>
+        </div>
+    </section>
+    <section id="queSe" class="bgimg3 w3-display-container w3-animate-opacity w3-text-white">
+        <div class="w3-display-middle">
+            <h1 class="w3-jumbo w3-animate-top" style=" text-align: center;">- EL HOGAR DEL NIÑO -</h1>
+            <hr class="w3-border-grey" style="margin:auto;width:40%">
+            <div id="contenedor1" class="contenedor1">
+                <p class="w3-large w3-center">
+                    <div class="contentText">
+                        <p class="w3-large w3-center">
+                            El hogar del niño es una fundación ubicada en las afueras de Medellín, en los límites entre La estrella e Itagüí.
+                            <br> Es un hogar de paso para niños que no conviven con sus familias debido a multiples problematicas de la sociedad (drogadicción, alcoholismo, entre otras).
+                            <br> Son 133 niños que habitan este recinto que oxilan entre la edad de 8 a 13 años.
+                            <br> Ésta fundación no cuenta con ayudas por parte del govierno, por ende...
+                    </div>
+                    </p>
+                    <preOrNext escondoEl="1" muestroEl="2" class="fa fa-angle-right fa-3x iconRight" aria-hidden="true"></preOrNext>
+            </div>
+            <div id="contenedor2" class="contenedor2">
+                <preOrNext escondoEl="2" muestroEl="1" class="fa fa-angle-left fa-3x iconLeft" aria-hidden="true" style="z-index: 1000"></preOrNext>
+                <div class="contentText">
+                    <p class="w3-large w3-center">
+                        <img src="images/bañoFundacion.jpeg" alt="" style="width: 85%;"><br>
+                        <br><img src="images/otraFundacion.jpeg" alt="" style="width: 90%" ">
+                        <br>
+                </div>
+
+            </div>
+            <!-- -->
+        </div>
+        <div class="w3-display-bottomleft w3-padding-large" style="top: 90%; left: 48%;">
+            <a href="#portafolio" class="fa fa-angle-down fa-3x iconDown" aria-hidden="true"><a href="#quienSoy" class="fa fa-angle-up fa-3x iconUp" aria-hidden="true"></a>
+        </div>
+    </section>
+    <section id="portafolio" class="bgimg4 w3-display-container w3-animate-opacity w3-text-white">
+        <div class="w3-display-middle">
+            <h1 class="w3-jumbo w3-animate-top" style=" text-align: center;">- CONTÁCTANOS -</h1>
+            <hr class="w3-border-grey" style="margin:auto;width:40%">
+            <div class="contentText">
+                <p class="w3-large w3-center" align="left">
+                    Para nosotros es muy importante contar con tu ayuda, saber hay gente que indirectamente nos apoyan a lograr nuestro objetivo. <br>
+                    No tienes que donar fondos económicos, una voz de aliento también nos ayudará para recargarnos y seguir luchando por este sueño. <br><br> Sólo hazlo la vida te lo agradecerá... <br>
+                    <a href="https://api.whatsapp.com/send?phone=573013918856" id="btnSendWhatsapp" title="Contáctame ahora" class="buttonBasic"><i class="fa fa-whatsapp" aria-hidden="true"></i> ENVÍA UN MENSAJE</a>
+                </p>
+            </div>
+        </div>
+        <div class="w3-display-bottomleft w3-padding-large" style="top: 90%; left: 48%;">
+            <a href="#queSe" class="fa fa-angle-up fa-3x iconUp" aria-hidden="true"></a>
+        </div>
+    </section>
+
+</body>
+
+</html>
